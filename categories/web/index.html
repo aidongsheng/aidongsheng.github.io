@@ -288,6 +288,13 @@
 
 
           
+       
+         <div id="gitment-container"></div>
+       
+
+
+  </div>
+
 
         </div>
         
@@ -525,6 +532,30 @@
 
 
 
+
+
+   
+      
+         
+            
+               <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+                  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+                     
+                            <script type="text/javascript">
+                            var gitment = new Gitment({
+                                          id: document.location.href, 
+                                                         owner: 'aidongsheng',
+                                                                        repo: 'aidongsheng.github.io',
+                                                                        oauth: {
+                                                                                           client_id: '93b416d9ae740557373a',
+                                                                                                              client_secret: 'e86992d7744eabceb44d4783fddbcd34133e9c39',
+                                                                                                                             
+                                                                        }
+                                    });
+                                               gitment.render('gitment-container');
+                                                      </script>
+                                                         
+                                                                          
 
 
   
